@@ -5,6 +5,9 @@
 
 A full-featured **Kali Linux-inspired desktop environment** built entirely in **Next.js**, simulating real tools like a terminal and browser with a dark, hacker-themed UI. Designed to be responsive, fast, and mobile-friendly.
 
+![image](https://github.com/user-attachments/assets/6eb1c2b8-4be7-4ca1-942f-d4dff105b261)
+
+
 ---
 
 ## 🎯 Features
@@ -46,6 +49,9 @@ A full-featured **Kali Linux-inspired desktop environment** built entirely in **
 - Clean UI with TailwindCSS & Framer Motion animations
 
 ---
+
+![image](https://github.com/user-attachments/assets/62c84077-b1a7-441b-bf86-53f80dffa017)
+
 
 ## 🧪 Tech Stack
 
