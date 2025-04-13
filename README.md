@@ -5,7 +5,10 @@
 
 A full-featured **Kali Linux-inspired desktop environment** built entirely in **Next.js**, simulating real tools like a terminal and browser with a dark, hacker-themed UI. Designed to be responsive, fast, and mobile-friendly.
 
-![image](https://github.com/user-attachments/assets/6eb1c2b8-4be7-4ca1-942f-d4dff105b261)
+
+
+![3 140829](https://github.com/user-attachments/assets/048eeafc-979d-4abe-afc4-6b622b872e51)
+
 
 
 ---
