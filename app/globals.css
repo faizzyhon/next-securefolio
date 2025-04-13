@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 142 70% 50%;
+  --card: 215 28% 17%;
+  --card-foreground: 142 70% 50%;
+  --popover: 0 0% 0%;
+  --popover-foreground: 142 70% 50%;
+  --primary: 142 70% 50%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 215 28% 17%;
+  --secondary-foreground: 142 70% 50%;
+  --muted: 215 28% 17%;
+  --muted-foreground: 142 70% 30%;
+  --accent: 215 28% 17%;
+  --accent-foreground: 142 70% 50%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 142 70% 30%;
+  --input: 142 70% 30%;
+  --ring: 142 70% 50%;
+}
+
+body {
+  background-color: black;
+  color: #00a86b;
+  font-family: "Courier New", monospace;
+  overscroll-behavior: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.terminal-output {
+  font-family: "Courier New", monospace;
+  line-height: 1.5;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Mr. Robot style animations */
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.glitch-text {
+  position: relative;
+  display: inline-block;
+}
+
+.glitch-image {
+  position: relative;
+  display: inline-block;
+  animation: glitch 0.5s infinite alternate-reverse;
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  .window-header {
+    height: 2.5rem;
+  }
+
+  .window-controls {
+    transform: scale(1.2);
+  }
+
+  input,
+  button {
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+}
+
+/* Touch-friendly styles */
+@media (pointer: coarse) {
+  .clickable {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  .touch-target {
+    padding: 0.5rem;
+  }
+}
