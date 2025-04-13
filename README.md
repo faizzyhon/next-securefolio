@@ -76,9 +76,9 @@ A full-featured **Kali Linux-inspired desktop environment** built entirely in **
 AI Engineer & Full Stack Developer  
 🌐 [faizzyhons.vercel.app](https://faizzyhons.vercel.app)  
 🐱 [GitHub](https://github.com/faizzyhon)  
-💼 [LinkedIn](https://linkedin.com/in/faizzyhon)  
+💼 [LinkedIn](https://linkedin.com/in/mfaizanai)  
 📸 [Instagram](https://instagram.com/faizzyhon)  
-🧑‍💼 [Upwork Profile](https://www.upwork.com/freelancers/~faizanai)
+🧑‍💼 [Upwork Profile](https://www.upwork.com/freelancers/~0193d3d868ae44047a)
 
 ---
 
@@ -126,4 +126,4 @@ This project is open-source and free to use under the **MIT License**.
 ## 💬 Want Something Similar?
 
 Feel free to fork, star ⭐️, or reach out!  
-For custom projects or freelance collaborations, let's connect via [LinkedIn](https://linkedin.com/in/faizzyhon) or [faizzyhons.vercel.app](https://faizzyhons.vercel.app).
+For custom projects or freelance collaborations, let's connect via [LinkedIn](https://linkedin.com/in/mfaizanai) or [faizzyhons.vercel.app](https://faizzyhons.vercel.app).
