@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
 
     // Connect to Browserless
     const browser = await puppeteer.connect({
-      browserWSEndpoint: "wss://chrome.browserless.io?token=S7fJaYl2KzueLn445f8cf618918b77a6316fe2916e",
+      browserWSEndpoint: "wss://chrome.browserless.io?token= YOURAPI HERE",
     })
 
     const page = await browser.newPage()
