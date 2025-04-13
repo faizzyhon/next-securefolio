@@ -91,6 +91,11 @@ AI Engineer & Full Stack Developer
 
 ---
 
+## 🛒 Buy My Kali Linux Portfolio UI
+
+[![Buy Now](https://img.shields.io/badge/Buy%20Now-%2450-orange?style=for-the-badge)](https://faizzyhon.pocketsflow.com/kali-portfolio)
+
+
 ## 📦 Getting Started
 
 ### 1. Clone the repo
